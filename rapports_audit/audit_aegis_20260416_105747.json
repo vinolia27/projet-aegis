@@ -1,0 +1,1312 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "projet": "AEGIS · BTC1 · IPSSI",
+    "reference": "TS-2026-SSI-001",
+    "date": "2026-04-16T10:56:28.422905",
+    "operateur": "vmss"
+  },
+  "systeme": {
+    "hostname": "vmss-virtual-machine",
+    "ip_locale": "127.0.1.1",
+    "os": "Linux-6.8.0-107-generic-x86_64-with-glibc2.35",
+    "kernel": "6.8.0-107-generic",
+    "architecture": "x86_64",
+    "uptime": "up 32 minutes",
+    "date_audit": "2026-04-16T10:56:28.430382"
+  },
+  "ports": [
+    {
+      "host": "192.168.1.10",
+      "nom": "SRV-PROD-01",
+      "port": 21,
+      "service": "FTP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.10",
+      "nom": "SRV-PROD-01",
+      "port": 22,
+      "service": "SSH",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.10",
+      "nom": "SRV-PROD-01",
+      "port": 23,
+      "service": "Telnet",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.10",
+      "nom": "SRV-PROD-01",
+      "port": 25,
+      "service": "SMTP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.10",
+      "nom": "SRV-PROD-01",
+      "port": 80,
+      "service": "HTTP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.10",
+      "nom": "SRV-PROD-01",
+      "port": 443,
+      "service": "HTTPS",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.10",
+      "nom": "SRV-PROD-01",
+      "port": 445,
+      "service": "SMB",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.10",
+      "nom": "SRV-PROD-01",
+      "port": 3306,
+      "service": "MariaDB/MySQL",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.10",
+      "nom": "SRV-PROD-01",
+      "port": 3389,
+      "service": "RDP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.10",
+      "nom": "SRV-PROD-01",
+      "port": 4444,
+      "service": "Metasploit/C2 (suspect)",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.10",
+      "nom": "SRV-PROD-01",
+      "port": 5001,
+      "service": "Synology DSM",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.10",
+      "nom": "SRV-PROD-01",
+      "port": 8080,
+      "service": "HTTP alternatif",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.10",
+      "nom": "SRV-PROD-01",
+      "port": 8443,
+      "service": "HTTPS alternatif",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.20",
+      "nom": "SRV-WEB-01",
+      "port": 21,
+      "service": "FTP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.20",
+      "nom": "SRV-WEB-01",
+      "port": 22,
+      "service": "SSH",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.20",
+      "nom": "SRV-WEB-01",
+      "port": 23,
+      "service": "Telnet",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.20",
+      "nom": "SRV-WEB-01",
+      "port": 25,
+      "service": "SMTP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.20",
+      "nom": "SRV-WEB-01",
+      "port": 80,
+      "service": "HTTP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.20",
+      "nom": "SRV-WEB-01",
+      "port": 443,
+      "service": "HTTPS",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.20",
+      "nom": "SRV-WEB-01",
+      "port": 445,
+      "service": "SMB",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.20",
+      "nom": "SRV-WEB-01",
+      "port": 3306,
+      "service": "MariaDB/MySQL",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.20",
+      "nom": "SRV-WEB-01",
+      "port": 3389,
+      "service": "RDP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.20",
+      "nom": "SRV-WEB-01",
+      "port": 4444,
+      "service": "Metasploit/C2 (suspect)",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.20",
+      "nom": "SRV-WEB-01",
+      "port": 5001,
+      "service": "Synology DSM",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.20",
+      "nom": "SRV-WEB-01",
+      "port": 8080,
+      "service": "HTTP alternatif",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.20",
+      "nom": "SRV-WEB-01",
+      "port": 8443,
+      "service": "HTTPS alternatif",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.30",
+      "nom": "SRV-BDD-01",
+      "port": 21,
+      "service": "FTP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.30",
+      "nom": "SRV-BDD-01",
+      "port": 22,
+      "service": "SSH",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.30",
+      "nom": "SRV-BDD-01",
+      "port": 23,
+      "service": "Telnet",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.30",
+      "nom": "SRV-BDD-01",
+      "port": 25,
+      "service": "SMTP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.30",
+      "nom": "SRV-BDD-01",
+      "port": 80,
+      "service": "HTTP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.30",
+      "nom": "SRV-BDD-01",
+      "port": 443,
+      "service": "HTTPS",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.30",
+      "nom": "SRV-BDD-01",
+      "port": 445,
+      "service": "SMB",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.30",
+      "nom": "SRV-BDD-01",
+      "port": 3306,
+      "service": "MariaDB/MySQL",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.30",
+      "nom": "SRV-BDD-01",
+      "port": 3389,
+      "service": "RDP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.30",
+      "nom": "SRV-BDD-01",
+      "port": 4444,
+      "service": "Metasploit/C2 (suspect)",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.30",
+      "nom": "SRV-BDD-01",
+      "port": 5001,
+      "service": "Synology DSM",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.30",
+      "nom": "SRV-BDD-01",
+      "port": 8080,
+      "service": "HTTP alternatif",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.30",
+      "nom": "SRV-BDD-01",
+      "port": 8443,
+      "service": "HTTPS alternatif",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.1",
+      "nom": "FW-01",
+      "port": 21,
+      "service": "FTP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.1",
+      "nom": "FW-01",
+      "port": 22,
+      "service": "SSH",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.1",
+      "nom": "FW-01",
+      "port": 23,
+      "service": "Telnet",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.1",
+      "nom": "FW-01",
+      "port": 25,
+      "service": "SMTP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.1",
+      "nom": "FW-01",
+      "port": 80,
+      "service": "HTTP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.1",
+      "nom": "FW-01",
+      "port": 443,
+      "service": "HTTPS",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.1",
+      "nom": "FW-01",
+      "port": 445,
+      "service": "SMB",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.1",
+      "nom": "FW-01",
+      "port": 3306,
+      "service": "MariaDB/MySQL",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.1",
+      "nom": "FW-01",
+      "port": 3389,
+      "service": "RDP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.1",
+      "nom": "FW-01",
+      "port": 4444,
+      "service": "Metasploit/C2 (suspect)",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.1",
+      "nom": "FW-01",
+      "port": 5001,
+      "service": "Synology DSM",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.1",
+      "nom": "FW-01",
+      "port": 8080,
+      "service": "HTTP alternatif",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.1",
+      "nom": "FW-01",
+      "port": 8443,
+      "service": "HTTPS alternatif",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.50",
+      "nom": "NAS-01",
+      "port": 21,
+      "service": "FTP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.50",
+      "nom": "NAS-01",
+      "port": 22,
+      "service": "SSH",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.50",
+      "nom": "NAS-01",
+      "port": 23,
+      "service": "Telnet",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.50",
+      "nom": "NAS-01",
+      "port": 25,
+      "service": "SMTP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.50",
+      "nom": "NAS-01",
+      "port": 80,
+      "service": "HTTP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.50",
+      "nom": "NAS-01",
+      "port": 443,
+      "service": "HTTPS",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.50",
+      "nom": "NAS-01",
+      "port": 445,
+      "service": "SMB",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.50",
+      "nom": "NAS-01",
+      "port": 3306,
+      "service": "MariaDB/MySQL",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.50",
+      "nom": "NAS-01",
+      "port": 3389,
+      "service": "RDP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.50",
+      "nom": "NAS-01",
+      "port": 4444,
+      "service": "Metasploit/C2 (suspect)",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.50",
+      "nom": "NAS-01",
+      "port": 5001,
+      "service": "Synology DSM",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.50",
+      "nom": "NAS-01",
+      "port": 8080,
+      "service": "HTTP alternatif",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.50",
+      "nom": "NAS-01",
+      "port": 8443,
+      "service": "HTTPS alternatif",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.100",
+      "nom": "PC-ADM-01",
+      "port": 21,
+      "service": "FTP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.100",
+      "nom": "PC-ADM-01",
+      "port": 22,
+      "service": "SSH",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.100",
+      "nom": "PC-ADM-01",
+      "port": 23,
+      "service": "Telnet",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.100",
+      "nom": "PC-ADM-01",
+      "port": 25,
+      "service": "SMTP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.100",
+      "nom": "PC-ADM-01",
+      "port": 80,
+      "service": "HTTP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.100",
+      "nom": "PC-ADM-01",
+      "port": 443,
+      "service": "HTTPS",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.100",
+      "nom": "PC-ADM-01",
+      "port": 445,
+      "service": "SMB",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.100",
+      "nom": "PC-ADM-01",
+      "port": 3306,
+      "service": "MariaDB/MySQL",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.100",
+      "nom": "PC-ADM-01",
+      "port": 3389,
+      "service": "RDP",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.100",
+      "nom": "PC-ADM-01",
+      "port": 4444,
+      "service": "Metasploit/C2 (suspect)",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.100",
+      "nom": "PC-ADM-01",
+      "port": 5001,
+      "service": "Synology DSM",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.100",
+      "nom": "PC-ADM-01",
+      "port": 8080,
+      "service": "HTTP alternatif",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    },
+    {
+      "host": "192.168.1.100",
+      "nom": "PC-ADM-01",
+      "port": 8443,
+      "service": "HTTPS alternatif",
+      "etat": "FERME",
+      "criticite": "OK",
+      "remarque": ""
+    }
+  ],
+  "ssh": [
+    {
+      "parametre": "PermitRootLogin",
+      "valeur_actuelle": "no",
+      "conforme": true,
+      "etat": "OK",
+      "description": "Connexion root directe en SSH",
+      "recommandation": "Définir PermitRootLogin no dans sshd_config"
+    },
+    {
+      "parametre": "PasswordAuthentication",
+      "valeur_actuelle": "no",
+      "conforme": true,
+      "etat": "OK",
+      "description": "Authentification par mot de passe activée",
+      "recommandation": "Utiliser uniquement des clés SSH : PasswordAuthentication no"
+    },
+    {
+      "parametre": "PermitEmptyPasswords",
+      "valeur_actuelle": "(non définie)",
+      "conforme": true,
+      "etat": "OK",
+      "description": "Mots de passe vides autorisés",
+      "recommandation": "Définir PermitEmptyPasswords no"
+    },
+    {
+      "parametre": "X11Forwarding",
+      "valeur_actuelle": "yes",
+      "conforme": false,
+      "etat": "NON_CONFORME",
+      "description": "Redirection X11 activée (surface d'attaque inutile)",
+      "recommandation": "Définir X11Forwarding no"
+    },
+    {
+      "parametre": "Protocol",
+      "valeur_actuelle": "(non définie)",
+      "conforme": true,
+      "etat": "OK",
+      "description": "Version du protocole SSH",
+      "recommandation": "Utiliser uniquement SSHv2 : Protocol 2"
+    },
+    {
+      "parametre": "Port",
+      "valeur_actuelle": "2222",
+      "conforme": true,
+      "etat": "OK",
+      "description": "Port SSH par défaut (22) utilisé",
+      "recommandation": "Utiliser un port non-standard (ex. 2222, 2200)"
+    },
+    {
+      "parametre": "MaxAuthTries",
+      "valeur_actuelle": "6",
+      "conforme": false,
+      "etat": "NON_CONFORME",
+      "description": "Nombre de tentatives d'authentification SSH",
+      "recommandation": "Réduire MaxAuthTries à 3 ou 4"
+    }
+  ],
+  "firewall": {
+    "outil": "ufw",
+    "actif": true,
+    "regles": [],
+    "alertes": []
+  },
+  "fail2ban": {
+    "installe": true,
+    "actif": true,
+    "jails": [],
+    "alertes": [
+      "aucune jail active"
+    ]
+  },
+  "utilisateurs": [
+    {
+      "nom": "root",
+      "uid": 0,
+      "shell": "/bin/bash",
+      "home": "/root",
+      "peut_login": true,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "daemon",
+      "uid": 1,
+      "shell": "/usr/sbin/nologin",
+      "home": "/usr/sbin",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "bin",
+      "uid": 2,
+      "shell": "/usr/sbin/nologin",
+      "home": "/bin",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "sys",
+      "uid": 3,
+      "shell": "/usr/sbin/nologin",
+      "home": "/dev",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "sync",
+      "uid": 4,
+      "shell": "/bin/sync",
+      "home": "/bin",
+      "peut_login": true,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "games",
+      "uid": 5,
+      "shell": "/usr/sbin/nologin",
+      "home": "/usr/games",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "man",
+      "uid": 6,
+      "shell": "/usr/sbin/nologin",
+      "home": "/var/cache/man",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "lp",
+      "uid": 7,
+      "shell": "/usr/sbin/nologin",
+      "home": "/var/spool/lpd",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "mail",
+      "uid": 8,
+      "shell": "/usr/sbin/nologin",
+      "home": "/var/mail",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "news",
+      "uid": 9,
+      "shell": "/usr/sbin/nologin",
+      "home": "/var/spool/news",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "uucp",
+      "uid": 10,
+      "shell": "/usr/sbin/nologin",
+      "home": "/var/spool/uucp",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "proxy",
+      "uid": 13,
+      "shell": "/usr/sbin/nologin",
+      "home": "/bin",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "www-data",
+      "uid": 33,
+      "shell": "/usr/sbin/nologin",
+      "home": "/var/www",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "backup",
+      "uid": 34,
+      "shell": "/usr/sbin/nologin",
+      "home": "/var/backups",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "list",
+      "uid": 38,
+      "shell": "/usr/sbin/nologin",
+      "home": "/var/list",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "irc",
+      "uid": 39,
+      "shell": "/usr/sbin/nologin",
+      "home": "/run/ircd",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "gnats",
+      "uid": 41,
+      "shell": "/usr/sbin/nologin",
+      "home": "/var/lib/gnats",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "nobody",
+      "uid": 65534,
+      "shell": "/usr/sbin/nologin",
+      "home": "/nonexistent",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "systemd-network",
+      "uid": 100,
+      "shell": "/usr/sbin/nologin",
+      "home": "/run/systemd",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "systemd-resolve",
+      "uid": 101,
+      "shell": "/usr/sbin/nologin",
+      "home": "/run/systemd",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "messagebus",
+      "uid": 102,
+      "shell": "/usr/sbin/nologin",
+      "home": "/nonexistent",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "systemd-timesync",
+      "uid": 103,
+      "shell": "/usr/sbin/nologin",
+      "home": "/run/systemd",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "syslog",
+      "uid": 104,
+      "shell": "/usr/sbin/nologin",
+      "home": "/home/syslog",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "_apt",
+      "uid": 105,
+      "shell": "/usr/sbin/nologin",
+      "home": "/nonexistent",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "tss",
+      "uid": 106,
+      "shell": "/bin/false",
+      "home": "/var/lib/tpm",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "uuidd",
+      "uid": 107,
+      "shell": "/usr/sbin/nologin",
+      "home": "/run/uuidd",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "systemd-oom",
+      "uid": 108,
+      "shell": "/usr/sbin/nologin",
+      "home": "/run/systemd",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "tcpdump",
+      "uid": 109,
+      "shell": "/usr/sbin/nologin",
+      "home": "/nonexistent",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "avahi-autoipd",
+      "uid": 110,
+      "shell": "/usr/sbin/nologin",
+      "home": "/var/lib/avahi-autoipd",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "usbmux",
+      "uid": 111,
+      "shell": "/usr/sbin/nologin",
+      "home": "/var/lib/usbmux",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "dnsmasq",
+      "uid": 112,
+      "shell": "/usr/sbin/nologin",
+      "home": "/var/lib/misc",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "kernoops",
+      "uid": 113,
+      "shell": "/usr/sbin/nologin",
+      "home": "/",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "avahi",
+      "uid": 114,
+      "shell": "/usr/sbin/nologin",
+      "home": "/run/avahi-daemon",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "cups-pk-helper",
+      "uid": 115,
+      "shell": "/usr/sbin/nologin",
+      "home": "/home/cups-pk-helper",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "rtkit",
+      "uid": 116,
+      "shell": "/usr/sbin/nologin",
+      "home": "/proc",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "whoopsie",
+      "uid": 117,
+      "shell": "/bin/false",
+      "home": "/nonexistent",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "sssd",
+      "uid": 118,
+      "shell": "/usr/sbin/nologin",
+      "home": "/var/lib/sss",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "speech-dispatcher",
+      "uid": 119,
+      "shell": "/bin/false",
+      "home": "/run/speech-dispatcher",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "fwupd-refresh",
+      "uid": 120,
+      "shell": "/usr/sbin/nologin",
+      "home": "/run/systemd",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "nm-openvpn",
+      "uid": 121,
+      "shell": "/usr/sbin/nologin",
+      "home": "/var/lib/openvpn/chroot",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "saned",
+      "uid": 122,
+      "shell": "/usr/sbin/nologin",
+      "home": "/var/lib/saned",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "colord",
+      "uid": 123,
+      "shell": "/usr/sbin/nologin",
+      "home": "/var/lib/colord",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "geoclue",
+      "uid": 124,
+      "shell": "/usr/sbin/nologin",
+      "home": "/var/lib/geoclue",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "pulse",
+      "uid": 125,
+      "shell": "/usr/sbin/nologin",
+      "home": "/run/pulse",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "gnome-initial-setup",
+      "uid": 126,
+      "shell": "/bin/false",
+      "home": "/run/gnome-initial-setup/",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "hplip",
+      "uid": 127,
+      "shell": "/bin/false",
+      "home": "/run/hplip",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "gdm",
+      "uid": 128,
+      "shell": "/bin/false",
+      "home": "/var/lib/gdm3",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    },
+    {
+      "nom": "vmss",
+      "uid": 1000,
+      "shell": "/bin/bash",
+      "home": "/home/vmss",
+      "peut_login": true,
+      "est_systeme": false,
+      "alertes": [
+        "membre du groupe sudo"
+      ]
+    },
+    {
+      "nom": "sshd",
+      "uid": 129,
+      "shell": "/usr/sbin/nologin",
+      "home": "/run/sshd",
+      "peut_login": false,
+      "est_systeme": true,
+      "alertes": []
+    }
+  ],
+  "fichiers": [
+    {
+      "type": "fichier_ioc",
+      "chemin": "/tmp/.x11-unix/sshd_bak",
+      "present": false,
+      "criticite": "OK"
+    },
+    {
+      "type": "fichier_ioc",
+      "chemin": "/var/www/html/upload/shell.php",
+      "present": false,
+      "criticite": "OK"
+    },
+    {
+      "type": "fichier_ioc",
+      "chemin": "/etc/cron.d/sysupdate",
+      "present": false,
+      "criticite": "OK"
+    }
+  ],
+  "maj": {
+    "gestionnaire": "apt",
+    "mises_a_jour": 0,
+    "securite": 0,
+    "alertes": []
+  },
+  "services": [
+    {
+      "port": 631,
+      "adresse": "127.0.0.1:631",
+      "service": "inconnu",
+      "alerte": false,
+      "ligne": "LISTEN 0      128        127.0.0.1:631       0.0.0.0:*"
+    },
+    {
+      "port": 2222,
+      "adresse": "0.0.0.0:2222",
+      "service": "inconnu",
+      "alerte": false,
+      "ligne": "LISTEN 0      128          0.0.0.0:2222      0.0.0.0:*"
+    },
+    {
+      "port": 53,
+      "adresse": "127.0.0.53%lo:53",
+      "service": "inconnu",
+      "alerte": false,
+      "ligne": "LISTEN 0      4096   127.0.0.53%lo:53        0.0.0.0:*"
+    },
+    {
+      "port": 631,
+      "adresse": "[::1]:631",
+      "service": "inconnu",
+      "alerte": false,
+      "ligne": "LISTEN 0      128            [::1]:631          [::]:*"
+    },
+    {
+      "port": 2222,
+      "adresse": "[::]:2222",
+      "service": "inconnu",
+      "alerte": false,
+      "ligne": "LISTEN 0      128             [::]:2222         [::]:*"
+    }
+  ],
+  "score": {
+    "points": 70,
+    "total": 100,
+    "pourcentage": 70,
+    "niveau": "MOYEN",
+    "alertes": [
+      "SSH entièrement durci (5/7 règles OK)",
+      "Jail fail2ban SSH active"
+    ]
+  }
+}
